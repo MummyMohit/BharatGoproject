@@ -1,0 +1,42 @@
+
+.div-input-text{
+    display: flex !important;
+    
+    flex-direction: column !important;
+    align-items: center !important;
+}
+.product-category-style{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    background: #fff9;
+    padding: 2px 17px;
+    border-radius: 12px;
+}
+.product-images{
+    aspect-ratio: 4/4;
+}
+.product-title{
+    word-break: break-all;
+}
+.product-plus-icon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.search-bar-home{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+@media(max-width: 576px){
+    .input-text-box{
+        width: 100% !important;
+        height: 52px !important;
+      
+    }
+}

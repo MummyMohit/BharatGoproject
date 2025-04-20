@@ -1,0 +1,8 @@
+.input-text-box{
+    width: 23% !important;
+    height: 52px !important;
+    border-radius: 5px !important;
+    border: 1px solid !important;
+    padding: 0.5rem !important;
+    font-size: 16px !important;
+}
